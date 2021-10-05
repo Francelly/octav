@@ -34,9 +34,9 @@ p_asociativa2 = 'a * ( b c) = (a b) * c';
 p_asociativa3 ='3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
 
 disp('Propiedad asociativa');
-a = 3
-b = 5
-c = 4
+a = 3;
+b = 5;
+c = 4;
 a + (b + c)
 (a + b) + c
 
@@ -57,9 +57,9 @@ b * a
 p_distributiva = 'a * (b + c ) = a * b + a * c';
 
 disp('Propiedad distributiva');
-a=7
-b=9
-c=2
+a=7;
+b=9;
+c=2;
 a * (b + c)
 (a * b) + (a * c)
 
@@ -69,7 +69,7 @@ p_neutroA = 'a + 0 = a';
 p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
 
 disp('Neutro aditivo');
-a=8
+a=8;
 a + 0
 
 % Neutro multiplicativo
